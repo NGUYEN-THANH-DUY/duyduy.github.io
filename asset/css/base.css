@@ -1,0 +1,47 @@
+:root{
+    --p: 122px;
+}
+
+
+
+.grid{
+    display: flex;
+    width: 1330px;
+    padding-top: 10px;
+}
+
+.row{
+    margin: 0 20px;
+    height: 100%;
+}
+
+.col-1 {
+    width: var(--p);
+
+}
+
+.col-2{
+    width: 180px;
+    
+}
+
+.col-3{
+    width: var(--p*3);
+}
+
+.col-4{
+    width: var(--p*4);
+}
+
+.col-6{
+    width: var(--p*6);
+}
+.col-10{
+    width: 1133px;
+}
+
+.col-12{
+    width: var(--p*12);
+}
+
+
